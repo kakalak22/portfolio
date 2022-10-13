@@ -1,0 +1,29 @@
+@import url("http://fonts.cdnfonts.com/css/clash-display");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #16161a;
+  --button-color: #7f5af0;
+  --text-color: #fffffe;
+  --paragraph-color: #94a1b2;
+  --stroke-color: #010101;
+  --secondary-color: #72757e;
+  --principal-color: #fffffe;
+  --highlight-color: #7f5af0;
+  --text-gradient: linear-gradient(
+    180deg,
+    #5bd1b9 0%,
+    #5bb9ef 50%,
+    #7a70e9 100%
+  );
+}
+
+.text-gradient {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
