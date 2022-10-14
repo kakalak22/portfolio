@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../constants/styles";
-
+import scrollDownArrow from "../assets/scrollDownArrow.svg";
 const Hero = () => {
   return (
-    <div className={`w-full h-[100vh] ${styles.flexCenter} flex-col`}>
+    <div className={`w-full h-[100vh] ${styles.flexCenter} flex-col `}>
       <h1 className="text-[64px] text-semibold text-white font-headingFont leading-[78px]">
         Hi, I'm <span className="text-gradient">Bao Tran</span>
       </h1>
@@ -13,9 +13,13 @@ const Hero = () => {
         autem excepturi recusandae officiis dolorum veritatis tempore, sint
         earum, a explicabo.
       </h2>
-      <button className="mt-[173px] bg-button text-white w-[237px] h-[69px] font-[22px] rounded-10px py-[21px] px-[35px] rounded-[10px] ">
+      <button
+        className="mt-[173px] bg-button hover:bg-transparent outline-none hover:outline-2 hover:outline-button 
+       text-white w-[237px] h-[69px] text-[22px] leading-[27px] rounded-10px py-[21px] px-[35px] rounded-[95px] transition-all "
+      >
         Explore
       </button>
+      <img className="mt-[28px]" src={scrollDownArrow} alt="scroll-down" />
     </div>
   );
 };

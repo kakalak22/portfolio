@@ -15,8 +15,12 @@ module.exports = {
         highlight: "#7f5af0",
       },
       fontFamily: {
-        headingFont: ['Clash Display', "sans-serif"]
+        headingFont: ['Clash Display', "sans-serif"],
+        logoFont: ['Permanent Marker', "cursive"]
       },
+      backgroundImage: {
+        hero: "url(src/assets/bg.png)"
+      }
     },
     screens: {
       xs: "480px",
