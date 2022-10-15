@@ -4,7 +4,7 @@ import styles from "../constants/styles";
 const NavigateDot = () => {
   return (
     <div>
-      <ul className="fixed top-[478px] right-[45px]">
+      <ul className=" md:block hidden absolute top-[478px] right-[45px]">
         <li
           className={`${styles.navigateDotActive} ${styles.lineStroke} `}
         ></li>

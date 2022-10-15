@@ -1,18 +1,31 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import NavigateDot from "./components/NavigateDot";
 import SocialLinks from "./components/SocialLinks";
 import styles from "./constants/styles";
 
 function App() {
   return (
-    <div className="bg-hero bg-contain w-full relative ">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
+    <div>
+      <div className="bg-hero bg-cover w-full relative ">
+        <Navbar />
+        <NavigateDot />
+
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <SocialLinks />
+            <Hero />
+          </div>
         </div>
       </div>
-      <NavigateDot />
-      <SocialLinks />
+      <div className="bg-primary">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <About />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

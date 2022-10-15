@@ -19,15 +19,18 @@ module.exports = {
         logoFont: ['Permanent Marker', "cursive"]
       },
       backgroundImage: {
-        hero: "url(src/assets/bg.png)"
+        hero: "url(src/assets/bg.png)",
+        portrait: "url(src/assets/cv1.jpg)",
+        squareDot: "url(src/assets/squareDot.svg)"
       }
     },
     screens: {
+      xxs: "360px",
       xs: "480px",
       ss: "620px",
       sm: "768px",
       md: "1060px",
-      lg: "1200px",
+      lg: "1378px",
       xl: "1700px",
     },
   },
