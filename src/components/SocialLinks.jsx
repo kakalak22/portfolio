@@ -17,7 +17,7 @@ const SocialLinks = () => {
           </h1>
         </div>
         <div>
-          <ul className="my-[50px] after:block after:w-[3px] after:bg-white after:h-[30vh] after:ml-[13px] after:mt-[50px] after:mb-[-6px]">
+          <ul className="my-[50px] after:block after:w-[3px] after:bg-white after:h-[25vh] after:ml-[13px] after:mt-[50px] after:mb-[-6px]">
             <li>
               <VscGithub
                 className="fill-white hover:fill-button hover:cursor-pointer "
