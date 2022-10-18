@@ -13,9 +13,10 @@ module.exports = {
         secondary: "#72757e",
         principal: "#fffffe",
         highlight: "#7f5af0",
+        swiper: "#2B2B32"
       },
       fontFamily: {
-        headingFont: ['Clash Display', "sans-serif"],
+        headingFont: ['Secular One', "sans-serif"],
         logoFont: ['Permanent Marker', "cursive"]
       },
       backgroundImage: {

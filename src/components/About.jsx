@@ -1,13 +1,14 @@
 import React from "react";
+import styles from "../constants/styles";
 
 const About = () => {
   return (
     <div className="md:h-[752px] h-[1000px] flex md:flex-row flex-col gap-20 md:justify-between justify-center  md:items-center items-start ">
-      <div className=" lg:w-[910px] md:w-[480px] w-full xs:h-[40vh] h-[90vh] flex justify-center flex-col items-center mt-10 md:mt-0 ">
-        <h2 className="text-gradient w-full md:text-start text-center md:text-[30px] text-[35px] font-headingFont font-semibold md:leading-full leading-[37px]">
+      <div className=" lg:w-[910px] md:w-[480px] w-full xs:h-[40vh] h-[90vh] flex justify-center flex-col items-center md:items-start mt-10 md:mt-0 ">
+        <h2 className={`${styles.heading2}  md:text-start text-center `}>
           About Me
         </h2>
-        <h1 className="w-full md:text-start text-center text-white font-headingFont font-semibold md:leading-[65px] leading-[42px] md:text-[64px] text-[40px] mt-0 xs:mt-3 ">
+        <h1 className={`${styles.heading1}  md:text-start text-center `}>
           My personal Experience
         </h1>
         <p className=" w-full md:text-start text-center font-arial font-normal xs:leading-[34.5px] leading-[30px] md:text-[30px] text-[22px] text-paragraph md:mt-[36px] mt-5">

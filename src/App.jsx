@@ -2,6 +2,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NavigateDot from "./components/NavigateDot";
+import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
 import styles from "./constants/styles";
 
@@ -23,6 +24,7 @@ function App() {
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <About />
+            <Projects />
           </div>
         </div>
       </div>
