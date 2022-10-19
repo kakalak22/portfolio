@@ -20,9 +20,9 @@ module.exports = {
         logoFont: ['Permanent Marker', "cursive"]
       },
       backgroundImage: {
-        hero: "url(src/assets/bg.png)",
-        portrait: "url(src/assets/cv1.jpg)",
-        squareDot: "url(src/assets/squareDot.svg)"
+        hero: "url(./assets/bg.png)",
+        portrait: "url(./assets/cv1.jpg)",
+        squareDot: "url(./assets/squareDot.svg)"
       }
     },
     screens: {

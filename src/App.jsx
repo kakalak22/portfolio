@@ -1,9 +1,11 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NavigateDot from "./components/NavigateDot";
 import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
+import TechStack from "./components/TechStack";
 import styles from "./constants/styles";
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <div className={`${styles.boxWidth}`}>
             <About />
             <Projects />
+            <TechStack />
+            <Contact />
           </div>
         </div>
       </div>

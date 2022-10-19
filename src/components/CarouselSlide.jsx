@@ -33,7 +33,7 @@ const CarouselSlide = () => {
           Live Demo
         </h3>
       </div>
-      <p className="text-paragraph text-center mt-5 md:mt-12 sm:text-[20px] md:text-[23px] sm:px-5 px-3">
+      <p className="text-paragraph text-center mt-5 md:mt-12 sm:text-[20px] md:text-[23px] sm:px-14 px-3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident
         fugit harum suscipit ad molestias totam, molestiae dolore quam nobis
         distinctio alias voluptatibus necessitatibus adipisci, at perspiciatis!
