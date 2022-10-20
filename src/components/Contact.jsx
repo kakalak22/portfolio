@@ -3,7 +3,7 @@ import styles from "../constants/styles";
 
 const Contact = () => {
   return (
-    <section className=" w-full md:h-[900px] h-[800px] mt-10 flex flex-col md: items-center lg:flex-row lg:items-start gap-8 ">
+    <section className=" w-full md:h-[800px] h-[800px] mt-10 flex flex-col md: items-center lg:flex-row lg:items-start gap-8 ">
       <div className="flex flex-col items-center justify-center lg:items-start lg:h-[700px] lg:w-[700px]">
         <h2 className={`${styles.heading2} w-fit `}>Contact Me</h2>
         <h1 className={`${styles.heading1} text-center lg:text-start`}>
