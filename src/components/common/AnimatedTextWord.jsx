@@ -1,8 +1,19 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 
-const AnimatedTextWord = ({ text, textStyles }) => {
+const AnimatedTextWord = ({ text, textStyles, onTextAnimationFinished }) => {
   const words = text.split(" ");
+  const textCtrl = useAnimation();
+  const charCtrl = useAnimation();
+
+  const animationSequence = async () => {
+    await textCtrl.start("visible");
+    return onTextAnimationFinished();
+  };
+
+  useEffect(() => {
+    animationSequence();
+  }, []);
 
   // Variants for Container of words.
   const container = {
@@ -40,7 +51,7 @@ const AnimatedTextWord = ({ text, textStyles }) => {
     <motion.div
       variants={container}
       initial="hidden"
-      animate="visible"
+      animate={textCtrl}
       className="w-full flex flex-wrap items-center justify-center"
     >
       {words.map((word, index) => (
