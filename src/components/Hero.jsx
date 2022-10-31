@@ -4,7 +4,6 @@ import scrollDownArrow from "../assets/scrollDownArrow.svg";
 import AnimatedTextWord from "./common/AnimatedTextWord";
 import AnimatedTextCharacter from "./common/AnimatedTextCharacter";
 import { motion, useAnimation } from "framer-motion";
-import MousePointer from "./MousePointer";
 const Hero = () => {
   const btnCtrl = useAnimation();
   const [isTextAnimationFinished, setIsTextAnimationFinished] = useState(false);
@@ -32,7 +31,7 @@ const Hero = () => {
 
   return (
     <div
-      className={`w-full md:h-[100vh] h-[87vh] ${styles.flexCenter} flex-col md:mt-0 mt-[10px] cursor-pointer `}
+      className={`w-full md:h-[100vh] h-[100vh] ${styles.flexCenter} flex-col md:mt-0 mt-[10px] cursor-pointer `}
     >
       <h1 className=" font-semibold text-white font-headingFont md:leading-[78px] leading-[46px] flex">
         <AnimatedTextCharacter
